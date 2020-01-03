@@ -1,0 +1,43 @@
+<html>
+<body>
+<head>
+<title> amrin json 1st example </title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<script type="text/javascript">
+var data ={
+"employee" : {
+"emp1" :{
+"ename" : "Junaid",
+"emp1id" : "101",
+"empdept" : "CSE",
+"empsal" : "40000"
+},
+"emp2" :{
+"ename" : "Akif",
+"emp1id" : "102",
+"empdept" : "EEE",
+"empsal" : "30000"
+},
+"emp3" :{
+"ename" : "Atahar",
+"emp1id" : "103",
+"empdept" : "CIVIL",
+"empsal" : "35000"
+},
+"emp4" : {
+"ename" : "Anas",
+"emp1id" : "104",
+"empdept" : "ENTC",
+"empsal" : "38000"
+}
+}
+};
+document.write(data.employee.emp2.empdept);
+document.write(data.employee.emp1.empdept);
+document.write(data.employee.emp3.empdept);
+</script>
+</body>
+</html>
